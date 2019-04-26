@@ -1,0 +1,254 @@
+/* ::content :start */
+.content .banner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.content .banner,.content .banner img{
+    height: 4.75rem;
+}
+.content .banner a{
+    display: inline-block;
+}
+.content .banner .zz{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4.75rem;
+    background-color: rgba(0,0,0,.1);
+}
+.content .banner ul{
+    position: absolute;
+    left: 0;
+    width: 200rem;
+    font-size: 0;
+}
+.content .banner ul li,.content .banner ul li a,.content .banner ul li img{
+    float: left;
+}
+.content .banner .list-btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: .21rem;
+
+}
+.content .banner .list-btn a{
+    margin: 0 .03rem;
+    display: inline-block;
+    width: .44rem;
+    height: .08rem;
+    background-color: #fff;
+}
+/* title :start */
+.title .title{
+    position: relative;
+    margin: .28rem auto;
+    margin-top: .52rem;
+    margin-bottom: .28rem;
+    /* width: 4.77rem; */
+    text-align: center;
+}
+.title .title a{
+    position: relative;
+    padding: 0 .16rem;
+    display: inline-block;
+    background: #fff;
+}
+.title .title a:after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: .24rem;
+    left: -.6rem;/*位置为自身长度减去中间被遮挡部分长度/2*/
+    width: 1.98rem;
+    height: .02rem;
+    background: rgb(0,0,0);
+    z-index: -1;
+}
+.title .title a p:first-of-type{
+    font-size: .18rem;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+.title .title a p:last-of-type{
+    color:rgb(149, 149, 149);
+    font-size: .14rem;
+}
+.product{
+    padding: 0 .895rem 0 .895rem;
+
+}
+.product div{
+    display: inline-block;
+    margin: 0 .66rem;
+    margin-bottom: .77rem;
+    width: 1.61rem;
+    text-align: center;
+    font-size: .14rem;
+}
+.product div img{
+    width: 1.81rem;
+}
+.product div p:first-of-type{
+    margin: .36rem 0 .08rem 0;
+}
+.product div:last-of-type,.product div:nth-last-of-type(2),.product div:nth-last-of-type(3),.product div:nth-last-of-type(4){
+    margin-bottom: 0;
+}
+.more{
+    width: 100%;
+    text-align: center;
+    padding: .3rem 0;
+}
+.more a{
+    display: inline-block;
+    font-size: .14rem;
+    padding: .14rem .25rem;
+    color: rgb(189, 189, 201);
+    border: .01rem solid rgb(160, 160, 160);
+}
+section.ad{
+    width: 100%;
+    text-align: center;
+}
+div.ad{
+    padding: .868rem 0;
+    width: 9.9rem;
+    background-color: rgba(0,0,0,.5);
+}
+section.ad a{
+    display: inline-block;
+    background: url(../images/homepage-more.png) no-repeat;
+    box-shadow: 0 0 8px 2px #000;
+    background-size: 100% 100%;
+}
+section.ad h2{
+    font-size: .38rem;
+    color: #fff;
+}
+section.ad p{
+    
+    font-size: .24rem;
+    position: relative;
+    color: rgb(225, 225, 225);
+}
+section.ad p::after{
+    display: inline-block;
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -.06rem;
+    width: 12%;
+    height: .01rem;
+    background-color: rgb(225, 225, 225);
+}
+.vip{
+    margin: 0 auto;
+    width: 10rem;
+}
+.vip div{
+    display: inline-block;
+}
+.vip .left p a{
+    display: inline-block;
+    vertical-align: top;
+}
+.vip .left p a,.vip .left p a > img{
+    margin-right: .02rem;
+    margin-bottom: .02rem;
+    width: 3.27rem;
+    height: 2.97rem;
+}
+
+.vip .right,.vip .right img{
+    vertical-align: top;
+    width: 3.32rem;
+    height: 5.96rem;
+}
+@media screen and (max-device-width:1440px){
+    .title .title a{
+        padding: 0 .16rem;
+    }
+    .title .title a:after{
+        left: -.7rem;/*位置为自身长度减去中间被遮挡部分长度/2*/
+        width: 2.4rem;
+    }
+    .product div{
+        margin: 0 .65rem;
+        margin-bottom: .77rem;
+        width: 1.62rem;
+        display: inline-block;
+        font-size: .18rem;
+    }
+    .more a{
+        font-size: .18rem;
+    }
+}
+@media screen and (max-device-width:1024px){
+    .vip .left p a,.vip .left p a > img{
+        margin-right: 0;
+    }
+}
+@media screen and (max-device-width:769px){
+    .title .title a p:first-of-type{
+        font-size: .4rem;
+    }
+    .title .title a p:last-of-type{
+        font-size: .26rem;
+    }
+    .title .title a{
+        padding: 0;
+    }
+    .title .title a:after{
+        top: .5rem;
+        left: -1.82rem;/*位置为自身长度减去中间被遮挡部分长度/2*/
+        width: 6.98rem;
+        height: .02rem;
+    }
+    .product div{
+        display: block;
+        margin: 0 .66rem;
+        margin-bottom: .77rem;
+        width: auto;
+        text-align: center;
+        font-size: .4rem;
+    }
+    .product div img{
+        width: 4rem;
+    }
+    .more{
+        padding: .6rem 0;
+    }
+    .more a{
+        font-size: .4rem;
+    }
+    section.ad h2{
+        font-size: .72rem;
+    }
+    section.ad p{
+        font-size: .44rem;
+    }
+    section.ad p::after{
+        width: 31%;
+        height: .02rem;
+    }
+    .vip .right,.vip .right img{
+        width: 3.28rem;
+    }
+    .product div p:first-of-type{
+       font-size: .45rem;
+    }
+    .product div p:nth-of-type(2){
+        font-size: .4rem;
+     }
+}
+@media screen and (max-device-width:425px){
+    .title .title a p:first-of-type{
+        font-size: .5rem;
+    }
+    .title .title a p:last-of-type{
+        font-size: .36rem;
+    }
+}

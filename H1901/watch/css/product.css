@@ -1,0 +1,621 @@
+body{
+   font-family: "微软雅黑";
+}
+/* ::content :start */
+.content .banner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.content .banner,.content .banner img{
+    height: 4.75rem;
+}
+.content .banner .zz{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4.75rem;
+    background-color: rgba(0,0,0,.1);
+}
+.content .banner a{
+    display: inline-block;
+}
+.content .banner ul{
+    position: absolute;
+    left: 0;
+    width: 200rem;
+    font-size: 0;
+}
+.content .banner ul li,.content .banner ul li a,.content .banner ul li img{
+    float: left;
+}
+.content .banner .list-btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: .21rem;
+
+}
+.content .banner .list-btn a{
+    margin: 0 .03rem;
+    display: inline-block;
+    width: .44rem;
+    height: .08rem;
+    background-color: #fff;
+}
+.container{
+    padding: 0 1.83rem;
+    padding-top: .13rem;
+    /* width: 1.366rem; */
+}
+.container nav{
+    margin-bottom: .1rem;
+    font-size: .14rem;
+    width: 10.01rem;
+    border: none;
+    border-bottom: .01rem solid #000;
+    background-color: #000;
+    color: #fff;
+}
+.container nav a{
+    display: inline-block;
+    color: #fff;
+}
+.container nav a:first-child{
+    font-size: .16rem;
+    margin-top: -.01rem;
+    margin-left: -.01rem;
+    padding: .06rem .26rem;
+    /* width: 1.13rem; */
+    /* box-sizing: border-box; */
+    background-color: #fff;
+    color: #000;
+}
+.container nav a:nth-last-of-type(2){
+    margin: 0 .06rem;
+}
+.container .description .photo{
+    padding: .94rem 1.39rem .63rem 1.25rem;
+}
+.container .description .photo img{
+    width: 3.38rem;
+    float: left;
+}
+.container .description .photo .right{
+    margin: 1.21rem 0 1.26rem 4.27rem;
+    
+}
+.container .description .photo .right h2{
+    font-size: .48rem;
+
+}
+.container .description .photo .right p:first-of-type{
+    font-size: .18rem;
+}
+.container .description .photo .right p:nth-of-type(2),.container .description .photo .right p:nth-of-type(3){
+    font-size: .14rem;
+    color: #3c3c3c;
+}
+.container .description .photo .right p:nth-of-type(2){
+    margin: .19rem 0 .37rem 0;
+    color: #3a3a3a;
+}
+.container .description .photo .right p:nth-of-type(4){
+    margin: .39rem 0 .24rem 0;
+    font-size: .12rem;
+    color: #515151;
+}
+.container .description .photo .right p:nth-of-type(5){
+    padding-bottom: .02rem;
+    width: .64rem;
+    font-size: .16rem;
+    color: #757575;
+    border-bottom: .01rem solid #757575;
+}
+.details{
+    padding: 0 1.48rem .54rem .9rem;
+}
+.details .left{
+    margin-right: .61rem;
+    float: left;
+    width: 4.01rem;
+}
+.details .left h3{
+    font-size: .28rem;
+    font-weight: normal; 
+}
+.details .left p{
+    font-size: .14rem;
+    font-weight: bold;
+}
+.details .left p:first-of-type{
+   margin: .3rem 0;
+}
+.details .left p:last-of-type{
+    margin-top: .27rem;
+}
+.details .right{
+    margin-left: 4.62rem;
+}
+.details .right div.title{
+    width: 1.54rem;
+    margin-bottom: .08rem;
+    padding-bottom: .1rem;
+    font-size: .18rem;
+    font-weight: 550;
+    border-bottom: .01rem solid #757575;
+}
+.details .right .time{
+    font-size: .14rem;
+    color: #454545;
+}
+.details .right .last{
+    margin-top: .2rem;
+}
+.details .right p  span{
+   display: block;
+   color: #a8a8a8;
+   font-size: .14rem;
+}
+.details .right p  span.title{
+    font-size: .14rem;
+    color: #3a3a3a;
+    font-weight: 550;
+}
+.details .right .top{
+    margin-bottom: .2rem;
+}
+.details .right .bottom p{
+    display: inline-block;
+}
+.details .right .bottom p:first-child{
+    margin-right: .4rem;
+}
+.craft{
+    padding: 0 .89rem .68rem .9rem;
+}
+.craft h2,.product-details h2,.other h2{
+    margin-bottom: .29rem;
+    font-size: .28rem;
+    font-weight: normal;
+}
+.craft .top,.craft .bottom{
+    font-size: 0;
+    
+}
+.craft .bottom{
+    margin-top: .02rem;
+}
+.craft .top a,.craft .bottom a{
+    vertical-align: top;
+    display: inline-block;
+    font-size: .14rem;
+    text-align: center;
+}
+.craft .top a img,.craft .top a,.craft .bottom a,.craft .bottom a img{
+    width: 2.72rem;
+    height: 2.11rem;
+}
+.craft .top a:nth-of-type(2){
+    margin: 0 .02rem;
+    position: relative;
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    
+}
+.craft .top a:nth-of-type(2)::before{
+    position: absolute;
+    left: -.01rem;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    display: inline-block;
+    border-width:  .205rem  .3rem  .205rem  .3rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+}
+.craft .top a:nth-of-type(2) div:first-of-type{
+    margin: 0 auto;
+    font-size: .18rem;
+    padding: .5rem 0 .14rem 0;
+    border-bottom: .01rem solid rgb(98, 98, 98);
+    width: 1.62rem;
+}
+.craft .top a:nth-of-type(2) div:nth-of-type(2){
+    margin: .15rem 0 .12rem 0;
+}
+.craft .top a:nth-of-type(2) div:nth-last-of-type(2),.craft .top a:nth-of-type(2) div:nth-last-of-type(1){
+    color:#bcbcbc;
+}
+.craft .bottom{
+    color: #2f2f2f;
+   font-weight: 550;
+}
+.craft .bottom .description{
+    /* position: relative; */
+    
+    background-color: rgb(231, 231, 231);
+}
+
+.craft .bottom .description > div >div:nth-of-type(2){
+    width: 2rem;
+    margin:  0 auto;
+}
+.craft .bottom a:nth-of-type(2){
+    margin: 0 .02rem;
+}
+.product-details h2{
+    text-align: left;
+}
+.product-details{
+    padding: 0 .89rem 1.34rem .9rem;
+    text-align: center;
+}
+.product-details img{
+    width: 7.17rem;
+}
+.product-details .bottom{
+    margin: 0 auto;
+    font-size: .14rem;
+    font-weight: 550;
+    width: 4.78rem;
+}
+.product-detail{
+    padding: 0 .89rem .78rem .9rem;
+}
+.product-detail .left{
+    padding-left: .08rem;
+    width: 4.02rem;
+    text-align: center;
+    font-weight: 550;   
+}
+.product-detail .left h3{
+    margin-top: .53rem;
+    margin-bottom: .32rem;
+    font-size: .18rem;
+    font-weight: normal;
+    
+}
+.product-detail .left div{
+    line-height: .25rem;
+    font-size: .14rem;
+}
+.product-detail img{
+    margin-left: 0.42rem;
+    width: 3.4rem;
+}
+.other {
+    padding: 0 .7rem .78rem .9rem;
+}
+.other .banner{
+    position: relative;
+    width: 8.5rem;
+    height: 3.61rem;
+    
+}
+.other section.banner{
+    overflow: visible;
+}
+.other .banner ul li,.other .banner ul li a ,.other .banner ul li a img,.other .banner ul li a .zz{
+    width: 2.05rem;
+    height: 2.6rem;
+}
+.other .banner ul li a .zz{
+    position: relative;
+    background-color: rgba(0,0,0,.4);
+}
+/* .other .banner ul li a .cm{
+    background-color: rgba(0,0,0,0);
+} */
+.other section.banner::before,.other section.banner::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -.7rem;
+    width: .21rem;
+    height: .63rem;
+    background: url(../images/index-jiantou.png) no-repeat;
+}
+.other section.banner::before{
+    left: -.31rem;
+}
+.other section.banner::after{
+    right: -.31rem;
+    transform: rotateY(180deg);
+}
+.other section.banner ul li a div:last-of-type{
+    font-size: .14rem;
+    display: none;
+}
+.other section.banner ul li a div:last-of-type::before{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: inline-block;
+    width: .8rem;
+    height: .06rem;
+    background-color: rgb(149, 149, 149);
+    margin: 0 auto;
+}
+.other section.banner ul li a div:last-of-type span{
+    margin-left: -.08rem;
+    width: 2.2rem;
+    display: block;
+}
+.other .banner ul li ,.other .banner ul li a {
+    padding: 0 .02rem;
+}
+.other .banner ul li:first-of-type ,.other .banner ul li a:first-of-type{
+    padding-left: .04rem;
+}
+.other .banner ul li:last-of-type ,.other .banner ul li a:last-of-type{
+    padding-right: .04rem;
+}
+.other section.banner ul li a:hover .zz{
+    background-color: rgba(0,0,0,0);
+}
+.other section.banner ul li a:hover .desc{
+    display: block;
+}
+@media screen and (max-device-width:768px){
+    .container{
+        padding: 0 0.83rem;
+    }
+    .container nav a:first-child{
+        font-size: .26rem;
+    }
+    .container nav{
+        width: auto;
+        font-size: .24rem;
+    }
+    .container .description .photo .right h2{
+        font-size: .68rem;
+    
+    }
+    .container .description .photo .right p:first-of-type{
+        font-size: .28rem;
+    }
+    .container .description .photo .right p:nth-of-type(2),.container .description .photo .right p:nth-of-type(3){
+        font-size: .24rem;
+    }
+    .container .description .photo .right p:nth-of-type(4){
+        font-size: .22rem;
+    }
+    .container .description .photo .right p:nth-of-type(5){
+        font-size: .26rem;
+        width: auto;
+    }
+    .container .description .photo .right{
+        margin: .4rem 0 1.26rem 4.27rem;
+    }
+    .details .left{
+        width: auto;
+        margin-right: 0;
+    }
+    .details .left h3{
+        font-size: .38rem;
+    }
+    .details .left p{
+        font-size: .24rem;
+    }
+    .details .right{
+        margin-left: 0;
+    }
+    .details .right div.title{
+        width: auto;
+        font-size: .38rem;
+    }
+    .details .right .time{
+        font-size: .34rem;
+    }
+    .details .right p  span.title{
+        font-size: .32rem;
+    }
+    .details .right p  span{
+        display: block;
+        font-size: .24rem;
+     }
+     .craft .top a img,.craft .top a,.craft .bottom a,.craft .bottom a img{
+        width: 5rem;
+        height: 4.11rem;
+    }
+    
+    .craft .top a:nth-of-type(2) div:first-of-type{
+        margin: 0 auto;
+        font-size: .28rem;
+        padding: 1rem 0 .14rem 0;
+        width: auto;
+    }
+    .craft .top a:nth-of-type(2) div:nth-of-type(2){
+        font-size: .24rem;
+    }
+    .craft .top a,.craft .bottom a{
+        font-size: .24rem;
+        display: block; 
+        margin: 0 auto;
+    }
+    .craft .top a:nth-of-type(2){
+        margin: 0 auto;
+        position: relative;
+        background-color: rgb(41, 41, 41);
+        color: #fff;
+        
+    }
+    .product-details .bottom{
+        font-size: .24rem;
+        width: auto;
+    }
+    .product-detail .left h3{
+        font-size: .28rem;
+    }
+    .product-detail .left div{
+        line-height: normal;
+        font-size: .2rem;
+    }
+    .product-detail img{
+        margin-left: 1.42rem;
+    }
+    .other .banner{
+        width: 10.5rem;
+        height: 4.61rem;
+    }
+    .other .banner ul li,.other .banner ul li a ,.other .banner ul li a img,.other .banner ul li a .zz{
+        width: 3.5rem;
+        height: 3.6rem;
+    }
+    .other section.banner ul li a div:last-of-type{
+        font-size: .24rem;
+    }
+    .other section.banner ul li a div:last-of-type span{
+        width: 4.2rem;
+    }
+    .other section.banner ul li a div:last-of-type::before{
+        width: 1.8rem;
+    }
+    .craft .bottom .description > div >div:nth-of-type(2){
+        width: auto;
+    }
+    .craft .bottom a:nth-of-type(2){
+        margin: 0 auto;
+    }
+    .craft .bottom .description > div >div:first-of-type{
+       
+        padding-top: 1.5rem;
+    }
+}
+@media screen and (max-device-width:475px){
+    .container{
+        padding: 0;
+    }
+    .container nav{
+        width: auto;
+        font-size: .54rem;
+        border: none;
+    }
+    .container nav a:first-child{
+        font-size: .56rem;
+    }
+    .container .description .photo{
+        text-align: center;
+    }
+    .container .description .photo img{
+        float: none;
+        width: 7rem;
+    }
+    .container .description .photo .right{
+        margin: 1.21rem 0 1.26rem 0;
+    }
+    .container .description .photo .right h2{
+        font-size: 1.4rem;
+    
+    }
+    .container .description .photo .right p:first-of-type{
+        font-size: .48rem;
+    }
+    .container .description .photo .right p:nth-of-type(2),.container .description .photo .right p:nth-of-type(3){
+        font-size: .44rem;
+    }
+    .container .description .photo .right p:nth-of-type(4){
+        font-size: .42rem;
+    }
+    .container .description .photo .right p:nth-of-type(5){
+        width: auto;
+        font-size: .46rem;
+    }
+    .details .left{
+        margin-right: 0;
+        float: none;
+        width:auto;
+        text-align: center;
+    }
+    .details .left h3{
+        font-size: .68rem;
+    }
+    .details .left p{
+        font-size: .44rem;
+    }
+    .details .right{
+        margin-left: 0;
+    }
+    .details .right div.title{
+        margin-top: 1rem;
+        width: auto;
+        font-size: .58rem;
+    }
+    .details .right .time{
+        font-size: .54rem;
+    }
+    .details .right p  span.title{
+        font-size: .52rem;
+    }
+    .details .right p  span{
+        display: block;
+        color: #a8a8a8;
+        font-size: .44rem;
+     }
+     .craft h2,.product-details h2,.other h2{
+        font-size: .68rem;
+    }
+    .craft .top a img,.craft .top a,.craft .bottom a,.craft .bottom a img{
+        width: 11.9rem;
+        height: 8.67rem;
+    }
+    .craft .top a:nth-of-type(2) div:first-of-type{
+        font-size: .68rem;
+        padding: 1.5rem 0 1.14rem 0;
+        width: auto;
+    }
+    .craft .top a,.craft .bottom a{
+        font-size: .54rem;
+    }
+    .craft .bottom .description > div >div:nth-of-type(2){
+        width: 8rem;
+    }
+    .product-details img{
+        width: 11.17rem;
+    }
+    .product-details .bottom{
+        font-size: .54rem;
+        width: auto;
+    }
+    .product-detail .left{
+        float: none;
+        width:auto;
+        
+    }
+    .product-detail .left h3{
+        font-size: .58rem;
+    }
+    .product-detail .left div{
+        line-height: normal;
+        font-size: .44rem;
+    }
+    .product-detail{
+        text-align: center;
+    }
+    .product-detail img{
+        width: 6rem;
+        margin-top: 1rem;
+    }
+    .other .banner{
+        width: 11.5rem;
+        height: 7.6rem;
+    }
+    .other .banner ul li,.other .banner ul li a ,.other .banner ul li a img,.other .banner ul li a .zz{
+        width: 5.7rem;
+        height: 7.6rem;
+    }
+    .other section.banner::before,.other section.banner::after{
+        display: none;
+    }
+}
+@media screen and (max-device-width:375px){
+    .craft .top a:nth-of-type(2) div:nth-of-type(2){
+        font-size: .54rem;
+    }
+    .craft .bottom .description > div >div:first-of-type{
+        padding-top: 3.5rem;
+    }
+}
