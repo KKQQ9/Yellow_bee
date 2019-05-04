@@ -1,0 +1,59 @@
+@import "_common";
+.navbar{
+    margin-bottom: 0px!important;
+    .container{
+        .navbar-header{
+            .navbar-brand{
+                img{
+                    @include mBase (-6px,0,0,0);
+                }
+            }
+        }
+    }
+    #myNav{
+        
+        @media screen and (max-width:1000px){
+            ul{
+                li{
+                    a{
+                        @include pBase (15px,6px,15px,6px);
+                        
+                    } 
+                }
+            }
+        }
+        @media screen and (max-width:767px){
+            ul{
+                li{
+                    a{
+                        @include pBase (10px,15px,10px,15px);
+                    } 
+                }
+            }
+        }
+    }
+}
+
+
+$viewports: (1:1440px);
+@each $key in map-keys($viewports){
+    @media (min-width: map-get($viewports, $key) ) {
+        .container {
+            width: map-get($viewports, $key) - 440px!important;
+        }
+        
+        // @if $key == 5 {
+        //     .container {
+        //         width: 800px;
+        //     }
+        // }
+        // @if $key == 1 {
+        //     .footer p{
+        //         text-align: center;
+        //     }
+        //     .engine .left {
+        //         text-align: center;
+        //     }
+        // }
+    }
+}

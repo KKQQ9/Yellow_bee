@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import "_reset";
+// 混合基础样式
+@mixin whBase ($width,$height){
+    width: $width;
+    height: $height;
+}
+@mixin psBase ($position,$top,$left){
+    position: $position;
+    top: $top;
+    left: $left;
+}
+@mixin fontBase ($font-size,$color,$text-align,$font-weight){
+    font-size: $font-size;
+    color: $color;
+    text-align: $text-align;
+    font-weight: $font-weight;
+}
+@mixin borderBase ($width,$style,$color){
+    border: $width $style $color;
+}
+@mixin mpBase($margin,$padding){
+    margin: $margin;
+    padding: $padding;
+}
+@mixin mBase($top,$right,$bottom,$left){
+    margin:  $top $right $bottom $left;
+}
+@mixin pBase($top,$right,$bottom,$left){
+    padding: $top $right $bottom $left;
+}
+@mixin bgBase($bgcolor){
+    background-color: $bgcolor;
+}
+//公共颜色样式
+$headercolor:
+rgb(0, 120, 215),rgb(251, 250, 247),rgb(102, 102, 102),
+rgb(157, 157, 157),rgb(143, 195, 31)
+;
+$color: 
+rgb(34, 34, 34),rgb(8, 8, 8),
+rgb(157, 157, 157),rgb(102, 102, 102),rgb(51, 51, 51),
+rgb(143, 195, 31),
+rgb(59, 59, 59),rgb(161,163,171);
+// 清除浮动
+$lte7:flase !default;
+%clearfix{
+    @if $lte7 {
+        *zoom: 1;
+    }
+    &:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

@@ -1,0 +1,477 @@
+@charset "UTF-8";
+body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, select, textarea, button, th, td, menu {
+  margin: 0;
+  padding: 0;
+}
+
+ul, dl, ol {
+  list-style: none;
+}
+
+img, fieldset, input[type="submit"] {
+  border: 0 none;
+}
+
+em {
+  font-style: normal;
+}
+
+strong {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button, input[type="button"] {
+  cursor: pointer;
+  border: 0 none;
+}
+
+a, button, input, img {
+  -webkit-touch-callout: none;
+}
+
+img {
+  pointer-events: none;
+  /*禁止图片的点击事件，例如长按保存图片*/
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+html, body {
+  /*禁止用户选择元素*/
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  /*禁止元素点击出现半透明黑色背景*/
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Microsoft YaHei','Heiti SC';
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  font-size: 14px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+
+body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, select, textarea, button, th, td, menu {
+  margin: 0;
+  padding: 0;
+}
+
+ul, dl, ol {
+  list-style: none;
+}
+
+img, fieldset, input[type="submit"] {
+  border: 0 none;
+}
+
+em {
+  font-style: normal;
+}
+
+strong {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button, input[type="button"] {
+  cursor: pointer;
+  border: 0 none;
+}
+
+a, button, input, img {
+  -webkit-touch-callout: none;
+}
+
+img {
+  pointer-events: none;
+  /*禁止图片的点击事件，例如长按保存图片*/
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+html, body {
+  /*禁止用户选择元素*/
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  /*禁止元素点击出现半透明黑色背景*/
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Microsoft YaHei','Heiti SC';
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  font-size: 14px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+}
+
+.navbar .container .navbar-header .navbar-brand img {
+  margin: -6px 0 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar #myNav ul li a {
+    padding: 15px 6px 15px 6px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar #myNav ul li a {
+    padding: 10px 15px 10px 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1000px !important;
+  }
+}
+
+.link, .footer .right .email, .footer .right .wx, .footer .right .qq {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.footer {
+  background: #3b3b3b;
+  padding: 35px 0 35px;
+}
+
+.footer .left {
+  padding-left: 7px;
+}
+
+.footer .left nav a {
+  display: inline-block;
+  padding: 0 13px;
+  color: #a1a3ab;
+  font-size: 14px;
+}
+
+.footer .left p {
+  padding: 14px 0 0 13px;
+  color: #a1a3ab;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.footer .right {
+  padding-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer .right {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer .right {
+    margin-top: 15px;
+  }
+}
+
+.footer .right .email {
+  background: url(../images/common/contact.png) no-repeat 0px 0;
+}
+
+.footer .right .wx {
+  background: url(../images/common/contact.png) no-repeat -58px 0;
+}
+
+.footer .right .qq {
+  background: url(../images/common/contact.png) no-repeat -116px 0;
+}
+
+.content {
+  font-family: "Microsoft YaHei";
+}
+
+.content .container-fuild img {
+  width: 100%;
+}
+
+.content .company {
+  padding-bottom: 68px;
+  font-size: 14px;
+}
+
+.content .company h2 {
+  margin-top: 92px;
+  margin-bottom: 34px;
+  font-size: 36px;
+}
+
+.content .company .description {
+  font-size: 21px;
+  line-height: 28px;
+}
+
+.content .company .col-md-9 {
+  padding-right: 60px;
+}
+
+.content .company .col-md-9 div:not(.description) {
+  margin-top: 26px;
+  text-indent: 25px;
+  line-height: 28px;
+}
+
+.content .company .col-md-3 img {
+  margin: 0 auto;
+  margin-top: 238px;
+  margin-left: 30px;
+}
+
+.content .position {
+  font-size: 16px;
+  background-color: #8cc11f;
+}
+
+.content .position .container {
+  padding-top: 113px;
+  padding-bottom: 83px;
+  color: #fff;
+}
+
+.content .position .container h2 {
+  margin-bottom: 55px;
+}
+
+.content .position .container .line1 {
+  line-height: 32px;
+}
+
+.content .position .container .line2 {
+  line-height: 39px;
+}
+
+.content .position .container .right .line1 {
+  margin-top: 107px;
+  margin-bottom: 12px;
+}
+
+.content .position .container .right .line2 {
+  margin-bottom: 14px;
+  display: inline-block;
+  background: #fff;
+  color: #8cc11f;
+  font-size: 24px;
+  padding: 0 13px;
+  line-height: 48px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.content .description {
+  padding: 53px 15px;
+}
+
+.content .description .container {
+  padding: 66px 0 65px 0;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.content .description .container h2 {
+  font-size: 25.9px;
+  margin-bottom: 44px;
+  color: #8cc11f;
+}
+
+.content .description .container .title {
+  margin-top: 14px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.content .description .container .index {
+  margin-left: 8px;
+}
+
+.content .description .container .index > div {
+  line-height: 33px;
+}
+
+.content .part6 {
+  width: 100%;
+  margin: 0;
+  padding: 44px 0 62px 0;
+  background-color: #f4f4f4;
+}
+
+.content .part6 .container h2 {
+  font-size: 36px;
+  color: #000;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.content .part6 .container .list {
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.content .part6 .container .list:last-child {
+  margin-bottom: 0;
+}
+
+.content .part6 .container .list .item {
+  width: 45%;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  padding: 13px 18px;
+  border-radius: 3px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .content .part6 .container .list .item {
+    width: 97%;
+  }
+}
+
+.content .part6 .container .list .item .image {
+  padding-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .content .part6 .container .list .item .image {
+    text-align: center;
+  }
+}
+
+.content .part6 .container .list .item .image img {
+  display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+  .content .part6 .container .list .item .image img {
+    text-align: center;
+    margin: 0 auto;
+    width: 24%;
+  }
+}
+
+.content .part6 .container .list .item .info {
+  padding: 0;
+  line-height: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .content .part6 .container .list .item .info {
+    line-height: 30px;
+    width: 68%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content .part6 .container .list .item .info {
+    text-align: center;
+  }
+}
+
+.content .part6 .container .list .item2 {
+  width: 47.7%;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  padding: 13px 0;
+  border-radius: 3px;
+  margin-right: 30px;
+}
+
+.content .part6 .container .list .item2 .col-md-3 {
+  padding-right: 0;
+}
+
+.content .part6 .container .list .item2 span {
+  line-height: 2.428;
+}
+
+@media screen and (max-width: 767px) {
+  .content .part6 .container .list .item2 {
+    width: 97%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content .part6 .container .list .item2 {
+    width: 97%;
+  }
+}
+
+.content .part6 .container .list > div:last-child {
+  margin-right: 0;
+}

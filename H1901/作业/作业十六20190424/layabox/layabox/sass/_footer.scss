@@ -1,0 +1,50 @@
+$contact:(0:".email",58:".wx",116:".qq");
+.link {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+@mixin link (
+        $name,
+        $left
+    ){
+        #{$name}{
+            @extend .link;
+            background:url(../images/common/contact.png) no-repeat #{$left} 0;
+        }
+}
+.footer {
+    background: #3b3b3b;
+    padding: 35px 0 35px;
+    .left {
+        padding-left: 7px;
+        nav {
+            a {
+                display: inline-block;
+                padding: 0 13px;
+                color: #a1a3ab;
+                font-size: 14px; 
+            }
+        }
+        p{
+            padding: 14px 0 0 13px;
+            color:#a1a3ab;
+            font-size:12px;
+            margin-bottom:0;
+        }
+    }
+    .right {
+        padding-right: 5px;
+        @media screen and (min-width:768px){
+            margin-top: 15px;
+        }
+        @media screen and (max-width:767px){
+            margin-top: 15px;
+        }
+        @each $offset in map-keys($contact){
+            @include link( map-get($contact, $offset), #{-1px*$offset} );
+        }
+    }
+}

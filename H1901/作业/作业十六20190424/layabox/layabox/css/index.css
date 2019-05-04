@@ -1,0 +1,331 @@
+@charset "UTF-8";
+body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, select, textarea, button, th, td, menu {
+  margin: 0;
+  padding: 0;
+}
+
+ul, dl, ol {
+  list-style: none;
+}
+
+img, fieldset, input[type="submit"] {
+  border: 0 none;
+}
+
+em {
+  font-style: normal;
+}
+
+strong {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button, input[type="button"] {
+  cursor: pointer;
+  border: 0 none;
+}
+
+a, button, input, img {
+  -webkit-touch-callout: none;
+}
+
+img {
+  pointer-events: none;
+  /*禁止图片的点击事件，例如长按保存图片*/
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+html, body {
+  /*禁止用户选择元素*/
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  /*禁止元素点击出现半透明黑色背景*/
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Microsoft YaHei','Heiti SC';
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  font-size: 14px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.link, .footer .right .email, .footer .right .wx, .footer .right .qq {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.footer {
+  background: #3b3b3b;
+  padding: 35px 0 35px;
+}
+
+.footer .left {
+  padding-left: 7px;
+}
+
+.footer .left nav a {
+  display: inline-block;
+  padding: 0 13px;
+  color: #a1a3ab;
+  font-size: 14px;
+}
+
+.footer .left p {
+  padding: 14px 0 0 13px;
+  color: #a1a3ab;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.footer .right {
+  padding-right: 5px;
+}
+
+.footer .right .email {
+  background: url(../images/common/contact.png) no-repeat 0px 0;
+}
+
+.footer .right .wx {
+  background: url(../images/common/contact.png) no-repeat -58px 0;
+}
+
+.footer .right .qq {
+  background: url(../images/common/contact.png) no-repeat -116px 0;
+}
+
+.engine {
+  background-color: #fbfaf7;
+}
+
+.engine .left h2 {
+  margin: 107px 0 35px 0;
+  font-size: 47.75px;
+  color: #0078d7;
+  text-align: left;
+  font-weight: bold;
+}
+
+.engine .left .small {
+  margin-bottom: 78px;
+  font-size: 30.22px;
+  color: #666666;
+  text-align: left;
+  font-weight: normal;
+}
+
+.engine .left .list .item img {
+  padding: 0 10px 0 10px;
+  background-color: #0078d7;
+  width: 64px;
+  height: 64px;
+}
+
+.engine .left .list .item .row .col-md-3 {
+  padding-right: 0;
+}
+
+.engine .left .list .item .row .col-md-9 h3 {
+  margin: 0 0px 15px 0;
+}
+
+.engine .left .list .item .row .col-md-9 p {
+  margin-bottom: 40px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #9d9d9d;
+  text-align: left;
+  font-weight: normal;
+}
+
+.engine .right img {
+  margin-top: 148px;
+}
+
+.adv .container > .row {
+  margin-top: 117px;
+  margin-bottom: 106px;
+}
+
+.adv .container > .row .left img {
+  margin-top: 72px;
+  width: 100%;
+  height: auto;
+}
+
+.adv .container > .row .right h2 {
+  font-size: 48.06px;
+  color: #8fc31f;
+  text-align: left;
+  font-weight: bold;
+}
+
+.adv .container > .row .right .list .item {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.adv .container > .row .right .list .item .img {
+  margin: auto;
+  padding: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #8fc31f;
+}
+
+.adv .container > .row .right .list .item img {
+  width: 32px;
+  height: 32px;
+}
+
+.adv .container > .row .right .list .item span:last-of-type {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.family {
+  color: #fff;
+  background-color: #0078d7;
+  padding: 113px 0 113px 0;
+}
+
+.family h2 {
+  font-size: 48.45px;
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+}
+
+.family .row {
+  margin-top: 70px;
+}
+
+.family .row .left .col-md-offset-1, .family .row .right .col-md-offset-1 {
+  margin-left: 3.333%;
+}
+
+.family .row .left .col-md-4 h3, .family .row .right .col-md-4 h3 {
+  margin-top: 0;
+  font-size: 32.89px;
+}
+
+.family .row .left .col-md-4 p, .family .row .right .col-md-4 p {
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.game {
+  padding: 83px 0 40px 0;
+}
+
+.game .row {
+  padding-right: 0px;
+}
+
+.game .row h3 {
+  margin: 0 0 0 0;
+  font-size: 34.65px;
+  color: #000;
+  text-align: left;
+  font-weight: normal;
+}
+
+.game .row a {
+  color: #000;
+}
+
+.game .row .col-md-2 {
+  text-align: center;
+}
+
+.game .row .col-md-2 img {
+  margin-bottom: 11px;
+}
+
+.game .row .last {
+  margin-top: 34px;
+}
+
+.game .row .right .col-md-2 {
+  padding-right: 0;
+}
+
+.game .bottom {
+  margin-top: 51px;
+}
+
+.partners {
+  background-color: #f4f4f4;
+  padding: 38px 0 65px 0;
+}
+
+.partners h3 {
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 35px;
+  font-size: 30px;
+  color: #000;
+  text-align: left;
+  font-weight: normal;
+}
+
+.partners h3 span {
+  font-size: 11.21px;
+  color: #777;
+  text-align: left;
+  font-weight: normal;
+}
+
+.partners .row .container .col-md-2 {
+  width: 15.3%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 15px;
+  background-color: #fff;
+}
+
+.partners .row .container .last {
+  margin-right: 0;
+}
+
+.partners .bon {
+  margin-top: 25px;
+}

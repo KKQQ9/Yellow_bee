@@ -1,0 +1,175 @@
+// @import "header";
+@import "_common";
+@import "_footer";
+.engine{
+    @include bgBase(nth($headercolor,2));
+    .left{
+        h2{
+            @include mBase(107px,0,35px,0);
+            @include fontBase(47.75px,nth($headercolor,1),left,bold);
+        }
+        .small{
+            margin-bottom: 78px;
+            @include fontBase(30.22px,nth($headercolor,3),left,normal);
+        }
+        .list{
+            .item{
+                img{
+                    @include pBase(0,10px,0,10px);
+                    @include bgBase(nth($headercolor,1));
+                    @include whBase(64px,64px);
+                }
+                .row{
+                    .col-md-3{
+                        padding-right: 0;
+                    }
+                    .col-md-9{
+                        h3{
+                            @include mBase(0,0px,15px,0);
+                        }
+                        p{
+                            margin-bottom: 40px;
+                            line-height: 22px;
+                            @include fontBase(14px,nth($headercolor,4),left,normal);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .right{
+        img{
+            margin-top: 148px;
+        }
+    }
+}
+.adv{
+    .container{
+        >.row{
+            margin-top: 117px;
+            margin-bottom: 106px;
+            .left{
+                img{
+                    margin-top: 72px;
+                    @include whBase(100%,auto);
+                }
+            }
+            .right{
+                h2{
+                    // @include mBase(107px,0,35px,0);
+                    @include fontBase(48.06px,nth($headercolor,5),left,bold);
+                }
+                .list{
+                    .item{
+                        margin-top: 15px;
+                        font-size: 14px;
+                        .img{
+                            @include mpBase(auto,12px);
+                            border-radius: 50%;
+                            display: inline-block;
+                            @include bgBase (nth($headercolor,5));
+                        }
+                        img{
+                            @include whBase(32px,32px);
+                        }
+                        span:last-of-type{
+                            display: inline-block;
+                            margin-left: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+
+}
+.family{
+    color: #fff;
+    @include bgBase(nth($headercolor,1));
+    @include pBase(113px,0,113px,0);
+    h2{
+        @include fontBase(48.45px,#fff,center,normal);
+    }
+    .row{
+        margin-top: 70px;
+        .left,.right{
+            .col-md-offset-1{
+                margin-left: 3.333%;
+            }
+            .col-md-4{
+                h3{
+                    margin-top: 0;
+                    font-size: 32.89px;
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 27px;
+                }
+            }
+            
+        }
+    }
+}
+.game{
+    @include pBase(83px, 0,40px,0);
+    .row{
+        padding-right: 0px;
+        h3{
+            @include mBase(0,0,0,0);
+            @include fontBase(34.65px,#000,left,normal);
+        }
+        a{
+            color: #000;
+        }
+        .col-md-2{
+            text-align: center;
+            img{
+                margin-bottom: 11px;
+            }
+        }
+        .last{
+            margin-top: 34px;
+        }
+        .right{
+            .col-md-2{
+                padding-right: 0;
+            }
+        }
+    }
+    .bottom{
+        margin-top: 51px;
+    }
+}
+.partners{
+    @include bgBase(rgb(244, 244, 244));
+    @include pBase(38px,0,65px,0);
+    h3{
+        margin-top: 0;
+        padding-left: 0;
+        margin-bottom: 35px;
+        @include fontBase(30px,#000,left,normal);
+        span{
+            @include fontBase(11.21px,#777,left,normal);
+        }
+    }
+    .row{
+        .container{
+            .col-md-2{
+                width: 15.3%;
+                padding-left: 0;
+                padding-right: 0;
+                margin-right: 15px;
+                @include bgBase(#fff);
+            }
+            .last{
+                margin-right: 0;
+            }
+        }
+    }
+    .bon{
+        margin-top: 25px;
+    }
+    
+}
